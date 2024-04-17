@@ -1,0 +1,27 @@
+.right {
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px;
+  align-items: flex-end;
+  width: 12%;
+  flex-shrink: 1;
+  text-align: left;
+  height: 90vh;
+}
+.turn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-transform: rotate(-90deg);
+  transform-origin: 0 0;
+}
+@media screen and (max-width: 768px) {
+  .turn {
+    font-size: 12px;
+    margin-right: 10px;
+  }
+  .right {
+    padding: auto;
+    width: 10%;
+  }
+}

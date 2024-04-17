@@ -1,0 +1,52 @@
+.vec3 {
+  height: 400px;
+}
+.vec1 {
+  background-image: url("https://res.cloudinary.com/da0yjkhei/image/upload/v1711129097/Vector_5_xakyld.png");
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-size: cover;
+  width: 30%;
+}
+.about {
+  display: flex;
+  height: 90vh;
+  width: 100%;
+}
+.t {
+  font-weight: 700;
+}
+.patch {
+  height: 250px;
+}
+.hand {
+  width: 300px;
+}
+.h2 {
+  font-weight: 500;
+}
+.h3 {
+  font-weight: 400;
+}
+.down {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.mabout {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .mabout {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    height: 90vh;
+    align-items: flex-start;
+    margin-left: 0%;
+  }
+  .about {
+    display: none;
+  }
+}
